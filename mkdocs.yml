@@ -29,6 +29,7 @@ nav:
     - Enumerate: utils/enumerate.md
     - Lambdas: utils/lambdas.md
   
-
- 
-
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
