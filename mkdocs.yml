@@ -1,3 +1,34 @@
-site_name: My Docs
+site_name: Python Tutorial
 theme:
   name: material
+  features:
+    - navigation.sections
+nav:
+  - Overview: index.md
+  - Basics: 
+    - Syntax: basics/syntax.md
+    - Variables and Data Types: basics/vars.md
+    - Operators: basics/operators.md
+    - Conditionals: basics/conditionals.md
+    - Looping: basics/looping.md
+    - Importing Modules: basics/importing.md
+    - Functions: basics/functions.md
+    - Exception Handling: basics/exceptions.md
+  - Collections: 
+    - Lists: collections/lists.md
+    - Dictionaries: collections/dictionaries.md
+    - Tuples: collections/tuples.md
+    - Sets: collections/sets.md
+  - Object-Oriented Programming:
+    - Classes and Objects: oop/classes.md
+    - Fields and methods: oop/fields.md
+    - Inheritance: oop/inheritance.md
+  - Python Utilities:
+    - Comprehensions: utils/comprehensions.md
+    - Map, Filter, Reduce: utils/functional.md
+    - Enumerate: utils/enumerate.md
+    - Lambdas: utils/lambdas.md
+  
+
+ 
+

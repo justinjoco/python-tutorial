@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+## What is Python?
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Who are you talking to right now? Who is it that you think you see? Do you know how much I make a year? I mean, even if I tell you, you wouldn’t believe it. Do you know what happens if I suddenly decide to stop going into work? A business big enough it could be listed on the NASDAQ goes belly-up. Gone. It ceases to exist without me. No, you clearly don’t know who you’re talking to so let me clue you in. I am not in danger, Skylar. I am the danger. A guy opens his front door and gets shot, and you think that of me? No. I am the one who knocks.
 
-## Commands
+## Why use Python?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Who are you talking to right now? Who is it that you think you see? Do you know how much I make a year? I mean, even if I tell you, you wouldn’t believe it. Do you know what happens if I suddenly decide to stop going into work? A business big enough it could be listed on the NASDAQ goes belly-up. Gone. It ceases to exist without me. No, you clearly don’t know who you’re talking to so let me clue you in. I am not in danger, Skylar. I am the danger. A guy opens his front door and gets shot, and you think that of me? No. I am the one who knocks.
+## Who or what uses Python?
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Who are you talking to right now? Who is it that you think you see? Do you know how much I make a year? I mean, even if I tell you, you wouldn’t believe it. Do you know what happens if I suddenly decide to stop going into work? A business big enough it could be listed on the NASDAQ goes belly-up. Gone. It ceases to exist without me. No, you clearly don’t know who you’re talking to so let me clue you in. I am not in danger, Skylar. I am the danger. A guy opens his front door and gets shot, and you think that of me? No. I am the one who knocks.
