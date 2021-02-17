@@ -8,7 +8,6 @@ nav:
   - Basics: 
     - Syntax: basics/syntax.md
     - Variables and Data Types: basics/vars.md
-    - Operators: basics/operators.md
     - Conditionals: basics/conditionals.md
     - Looping: basics/looping.md
     - Importing Modules: basics/importing.md
@@ -19,14 +18,12 @@ nav:
     - Dictionaries: collections/dictionaries.md
     - Tuples: collections/tuples.md
     - Sets: collections/sets.md
+    - Comprehensions: collections/comprehensions.md
   - Object-Oriented Programming:
     - Classes and Objects: oop/classes.md
-    - Fields and methods: oop/fields.md
     - Inheritance: oop/inheritance.md
   - Python Utilities:
-    - Comprehensions: utils/comprehensions.md
     - Map, Filter, Reduce: utils/functional.md
-    - Enumerate: utils/enumerate.md
     - Lambdas: utils/lambdas.md
   
 markdown_extensions:
