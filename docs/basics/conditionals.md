@@ -1,10 +1,10 @@
 ## If statement
-```python3
+```python
 if condition:
     Dof stuff
 ```
 ## Elif 
-```python3
+```python
 .
 .
 .
@@ -14,7 +14,7 @@ elif condition:
 
 
 ### Else
-```python3
+```python
 .
 .
 .
@@ -24,7 +24,7 @@ else condition:
 
 ### Combined if-else
 
-```python3
+```python
 if condition_1:
 .
 .

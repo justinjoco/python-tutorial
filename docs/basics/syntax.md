@@ -1,17 +1,10 @@
-## Single line comment
-```python3
-# This is a single line comment
-```
-## Multiline comments
-```python3
-'''
-This is a multiline
-comment
-'''
-```
+One of Python's main features is its readability. Consider the following pseudocode:
 
+```pseudocode
+something
+```
 ## Tabbing
-```python3
+```python
 if True:
   print("Outside true")
   if True:
@@ -20,3 +13,17 @@ if True:
       print("Nested nested true")
 
 ```
+
+
+## Single line comment
+```python
+# This is a single line comment
+```
+## Multiline comments
+```python
+'''
+This is a multiline
+comment
+'''
+```
+

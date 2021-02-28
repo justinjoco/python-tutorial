@@ -1,9 +1,3 @@
-## Assigning variables
-
-```python3
-countNoType = 5
-```
-
 ## Primitive data types
 - String
     - `str`
@@ -13,11 +7,18 @@ countNoType = 5
     - `complex`
 - Boolean types
     - `bool`
+## Assigning variables
+Like in all other programming languages, data types can be assigned to variables. Since Python is not statically typed, there is no need to type a variable before running Python code. Consider the following:
+```python
+countNoType = 5
+```
+
+
 
 ### Type hinting
 
 
-```python3
+```python
 countWithType: int = 3
 ```
 ## Operators

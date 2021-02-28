@@ -1,25 +1,25 @@
 ## For loop
 
 ### Iterate through string
-```python3
+```python
 for char in stringVar:
     #Process char
 ```
 
 ### Iterate through list
-```python3
+```python
 for element in listVar:
     #Process element
 ```
 
 
 ### Iterate through a range of ints
-```python3
+```python
 for i in range(n):
     #Process i
 ```
 
-```python3
+```python
 for i in range(len(listVar)):
     Do stuff to listVar[i]
 ```
@@ -27,13 +27,13 @@ for i in range(len(listVar)):
 
 
 ## While loop
-```python3
+```python
 while condition:
     Do stuff
 ```
 
 ### Infinite loop
-```python3
+```python
 while True:
     Do stuff forever or until break
 ```

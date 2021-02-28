@@ -1,13 +1,13 @@
 ## Importing a library
-```python3
+```python
 import numpy
 ```
 
 ### Library aliasing
-```python3
+```python
 import numpy as np
 ```
 ## Importing something from a library
-```python3
+```python
 from math import pi
 ```

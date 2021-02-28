@@ -39,8 +39,20 @@ Python is a dynamically-typed, garbage-collected, strongly-typed, interpreted la
     - Flask - web framework
 
 ## Hello World
-``` python3
+Unlike lower-level programming languages, there is no requirement to make a `main` function to run a simple program. One can simply write one line of code to make a `Hello World` program, like the following:
+``` python
 print("Hello World")
-print("Hello World 2")
+```
+Fortunately, you can certainly make a `Hello World` program with a `main` function-like structure using the special variable `__name__`:
+``` python
+def main():
+    print("Hello World")
 
+if __name__ == "__main__":
+    main()
+```
+If you run a specific Python file, then that file will be treated as the `main` file, in which the following code block will run:
+```python
+if __name__ == "__main__":
+    main()
 ```
