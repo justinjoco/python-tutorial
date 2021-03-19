@@ -10,4 +10,10 @@ import numpy as np
 ## Importing something from a library
 ```python
 from math import pi
+
+print(pi)
+```
+```python
+import math
+print(math.pi)
 ```

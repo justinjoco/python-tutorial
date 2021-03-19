@@ -21,7 +21,7 @@ for i in range(n):
 
 ```python
 for i in range(len(listVar)):
-    Do stuff to listVar[i]
+  #  Do stuff to listVar[i]
 ```
 
 
@@ -29,11 +29,11 @@ for i in range(len(listVar)):
 ## While loop
 ```python
 while condition:
-    Do stuff
+   # Do stuff
 ```
 
 ### Infinite loop
 ```python
 while True:
-    Do stuff forever or until break
+   # Do stuff forever or until break
 ```
