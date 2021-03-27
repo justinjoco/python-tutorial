@@ -47,7 +47,8 @@ Comparison operators between two operands are supported
 - Greater than `>`: `x > y`
 - Not equal `!=`: `x != y`
 
-### Assignment operators
+### Arithmetic assignment operators
+Assigning a variable the result of an arithmetic operation between the variable's previous value and another operand is supported.
 
 - Add, then assign: `+=`: `x += y`
 - Subtract, then assign `-=`: `x -= y`
@@ -55,7 +56,9 @@ Comparison operators between two operands are supported
 - Divide, then assign `/=`: `x /= y`
 - Modulo, then assign: `%=`: `x %= y`
 
+Unlike other languages, Python does not support the increment (ie `++`) or decrement (`--`) operators.
 ### Bitwise
+Operations between numbers on a bit-level are supported.
 
 - Bitwise AND `&`
 - Bitwise OR `|`
