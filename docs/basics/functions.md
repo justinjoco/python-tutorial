@@ -1,3 +1,5 @@
+Code sample link: <https://replit.com/@jjoco/python-functions>
+
 ## Defining a function
 ```python
 def function_name(input1 , ...):

@@ -1,3 +1,5 @@
+Code sample link: <https://replit.com/@jjoco/python-importing>
+
 ## Importing a library
 ```python
 import numpy

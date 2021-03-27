@@ -1,3 +1,5 @@
+Code sample link: <https://replit.com/@jjoco/python-dictionaries>
+
 ## why to use dictionaries
 ## create dict
 ```python

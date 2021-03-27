@@ -1,3 +1,5 @@
+Code sample link: <https://replit.com/@jjoco/python-syntax>
+
 One of Python's main features is its readability. Consider the following pseudocode:
 
 ```{r, eval = FALSE}

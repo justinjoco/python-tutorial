@@ -9,7 +9,9 @@ Python includes many primitive data types like many other languages.
 - Boolean types
     - `bool`
 Notice that there is no `char` data type.
-## Assigning variables
+## Assigning variables 
+Code sample link: <https://replit.com/@jjoco/python-vars>
+
 Like in all other programming languages, data types can be assigned to variables. Since Python is not statically typed, there is no need to type a variable before running Python code. Consider the following:
 ```python
 countNoType = 5
@@ -25,6 +27,8 @@ However, this is not exactly the same as static typing; Python3 will not enforce
 countWithType: int = "hello"
 ```
 ## Operators
+Code sample link: <https://replit.com/@jjoco/python-operators>
+
 In Python, there are different operators between two operands: arithmetic, logical, and assignment.
 ### Arithmetic
 Python supports arithmetic between two variables:

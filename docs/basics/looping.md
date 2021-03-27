@@ -1,3 +1,5 @@
+Code sample link: <https://replit.com/@jjoco/python-looping>
+
 ## For loop
 
 ### Iterate through string

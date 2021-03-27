@@ -1,3 +1,5 @@
+Code sample link: <https://replit.com/@jjoco/python-lists>
+
 ## why to use list
 ## Empty list
 
@@ -7,7 +9,8 @@
 
 ## iterate thorough list via range
 
-## Iterate via enumerate
+## Iterate via enumerate 
+Sample: <https://replit.com/@jjoco/python-enumerate>
 
 ## Setting list element
 
