@@ -9,7 +9,7 @@ Python is a dynamically-typed, garbage-collected, strongly-typed, interpreted la
 - Dynamically-typed -> variable types is checked at runtime; not known at compile time (duck-typing)
 - Garbage collected -> automatic memory management
 - Strongly-typed -> forbids operations between distinct types (eg cannot add strings and ints together)
-- Interpreted -> Python source code is compiled to byte code, which is run by an interpreter (can be thought of as Python's virtual machine)
+- Interpreted -> Python source code is compiled to byte code, which is run by an interpreter (can be thought of as Python's virtual machine) -> CPython is main Python implementation
 ## Why use Python?
 - Very easy to learn -> easy to read and write programs
 - Supports multiple programming paradigms: concurrency, functional, generic, OOP, structural, etc.
