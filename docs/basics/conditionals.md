@@ -21,16 +21,17 @@ elif condition:
 
 
 ### Else
+The syntax for `else` is the following: 
 ```python
 .
 .
 .
-else condition:
+else:
     #Do stuff
 ```
 
 ### Combined if-else
-
+`if`, `elif` and `else` can be combined like so:
 ```python
 if condition_1:
 .
