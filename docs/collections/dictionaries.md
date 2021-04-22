@@ -17,18 +17,32 @@ king_value = my_map["king"]
 king_value_with_get = my_map.get("king") 
 ```
 ## iterate through dict elements
-
+```python
+for key in my_map:
+  print(my_map[key])
+```
 ### via dict -> each element is a tuple (key, value)
+```python
+for item in my_map.items():
+  print("Item: ", item)
+```
 
-### via .items()
 ```python
 for key, value in my_map.items():
     #Do stuff
 ```
 
 ### via .keys()
-
+```python
+for key in hello_map.keys():
+  print(key)
+```
 ### via .values()
-
+```python
+for value in hello_map.values():
+  print(value)
+```
 ## delete dict key val pair
-
+```python
+del my_map["king"]
+```
