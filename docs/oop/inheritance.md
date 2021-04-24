@@ -1,8 +1,8 @@
 Code sample link: <https://replit.com/@jjoco/python-inheritance>
 
-## why inheritance
+## Why use inheritance
 
-## parent class
+## Example parent class
 ```python
 class Rectangle:
   def __init__(self, width: float, length: float) -> None:
@@ -15,7 +15,7 @@ class Rectangle:
   def get_dimensions(self) -> tuple:
     return (self.width, self.length)
 ```
-## child class
+## Example child class
 ```python
 class Square(Rectangle):
   def __init__(self, side):

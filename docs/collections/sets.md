@@ -1,7 +1,7 @@
 Code sample link: <https://replit.com/@jjoco/python-sets>
 
-## why to use set
-## Creating set
+## Why to use set
+## Creating a set
 ```python
 #Create empty set
 init_set = set()
@@ -11,13 +11,13 @@ print(init_set)
 set_from_list = set(["hello", "world", "set"])
 print(set_from_list)
 ```
-## Checking contains
+## Checking if a set contains an element
 ```python
 #Check if element exists in set
 if "hello" in set_from_list:
   print("hello is seen" )
 ```
-## Pushing to set
+## Pushing an element into a set
 ```python
 set_from_list.add("added_elem")
 print(set_from_list)

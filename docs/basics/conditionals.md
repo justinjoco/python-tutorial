@@ -44,3 +44,26 @@ elif condition_2:
 else condition_n:
     #Do stuff
 ```
+Keep in mind that you can chain several `elif`s:
+```python
+if condition_1:
+.
+.
+.
+elif condition_2:
+.
+.
+.
+elif condition_3:
+.
+.
+.
+elif condition_4:
+.
+.
+.
+else condition_n:
+    #Do stuff
+```
+### Switch-Case
+Unfortunately, Python does not support switch-case statements out of the box.

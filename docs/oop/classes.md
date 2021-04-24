@@ -2,7 +2,7 @@
 
 ### why to create class
 
-## create a class
+## Creating a class
 Code sample link: <https://replit.com/@jjoco/python-classes>
 ```python
 class MyClass:
@@ -11,8 +11,6 @@ class MyClass:
     .
 
 ```
-
-## class fields and methods
 Code sample: <https://replit.com/@jjoco/python-fields>
 
 ### constructor and instance methods

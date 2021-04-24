@@ -2,7 +2,7 @@ Code sample link: <https://replit.com/@jjoco/python-lists>
 
 In Python, arrays are `lists` and function similarly to `ArrayLists` in Java. They are used to keep a number of values to be used later on for processing.
 
-## Empty list
+## Creating a list
 To create an empty list, one can use square brackets `[]`, like so:
 ```python
 my_list = []
@@ -18,7 +18,6 @@ from typing import List
 .
 my_list : List[str] = []
 ```
-## populated list
 A list need not have to be empty every time when intialized. Lists can be initialized with elements inside, like so:
 ```python
 my_list = ["hello", "there", "my", "name", "is"]
@@ -35,7 +34,7 @@ Even if a developer type hints, the multi-type list is still a valid list, like 
 my_list: List[str] = ["hello", 0, 1.5 , "name", True]
 ```
 If it is critical that a list is not to contain multiple types, do not rely on the Python interpreter out-of-the-box to prevent multi-type lists.
-## iterate through list
+## Iterating through a list
 The Python way of iterating through a list is very similar to how other languages use iterator looping.
 
 ```python
@@ -57,7 +56,7 @@ world
 ```
 
 
-## Iterate via enumerate 
+## Iterating through a list via enumerate 
 Sample: <https://replit.com/@jjoco/python-enumerate>
 Python has a special function called `enumerate`. `enumerate`'s parameter is a list, and it returns an *enumeration* of the list that allows a dev to loop through a list's indicies and elements simultaneously. 
 
@@ -116,7 +115,7 @@ Value:  9
 Value:  0
 '''
 ```
-## Setting list element
+## Setting a list element
 A dev can set the value of an element as a given index like the following.
 
 ```python
@@ -124,7 +123,7 @@ my_list = [2, 21, 7, 8, 65 ,9 , 0]
 my_list[3] = 5
 ```
 The above line sets the element at index 3 (whose value is 8) to 5. Keep in mind that if the input index is outside the scope of the list, then Python will throw an `IndexOutOfRangeException`. 
-## Get list element
+## Getting a list element
 To get an element at a given index, use the following syntax:
 ```python
 elem = my_list[index]
@@ -136,7 +135,7 @@ print(my_list[2])
 ```
 
 
-## iterate through list via range
+## Iterating through a list via range
 Devs can also iterate through a list via indices, but they still need to use the iterator syntax mentioned earlier using a special function `range(n)`. `range(n)` returns a sequence of numbers from `0` to `n-1`. Like most languages, Python list indexing starts from `0`.
 To iterate through an entire list using `range`, input the length of the list as its parameter.
 ```python
@@ -147,7 +146,7 @@ for i in range(len(bigger_list)):
 ```
 Try not to iterate through lists like this too often unless using the array indicies are used meaningfully.
 
-## Append list element
+## Appending list element to the end of a list
 To append to the end of a list, use the list method `append(elem)` function to add  `elem` to the end of a given list.
 ```python
 bigger_list = [1,5,8,3,8,0,3]
@@ -155,7 +154,7 @@ bigger_list = [1,5,8,3,8,0,3]
 bigger_list.append(7)
 # bigger_list == [1,5,8,3,8,0,3,7]
 ```
-## Insert list element
+## Inserting a list element at a specific index
 To insert an element at a given index, use list method `insert(index, value)` to insert `value` at index `index`:
 ```python
 bigger_list = [1,5,8,3,8,0,3]
@@ -164,7 +163,7 @@ bigger_list.insert(1,4)
 # bigger_list == [1,4,5,8,3,8,0,3]
 ```
 
-## Pop list element
+## Popping a list element from end of a list
 To remove the last element of a given list (or "pop" it), use the `pop()` function. Note that this function also returns the item popped.
 ```python
 bigger_list = [1,5,8,3,8,0,3]
