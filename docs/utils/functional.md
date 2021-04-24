@@ -5,20 +5,20 @@ Code sample link: <https://replit.com/@jjoco/python-functional>
 items = [0 , -1, -5, 3, 5, 6, 2, 1]
 
 ```
-## map
+## Map
 ```python
 from functools import reduce
 squared = list(map(lambda x: x**2, items))
 print(squared)
 ```
-## reduce
+## Reduce
 ```python
 from functools import reduce
 
 total = reduce(lambda acc, nextVal : acc + nextVal, items)
 print(total)
 ```
-## filter
+## Filter
 ```python
 filtered = list(filter(lambda x: x < 0, items))
 print(filtered)

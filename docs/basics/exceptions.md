@@ -66,4 +66,4 @@ finally:
 ```
 Then, standard output would show `Finally clause here` followed by the `Exception`.
 
-There are other complexities involving this block, but that's out of the scope of this tutorial.
+There are other complexities involving this `finally` block, but that's out of the scope of this tutorial.

@@ -1,6 +1,6 @@
 
 
-### why to create class
+### Why to create class
 
 ## Creating a class
 Code sample link: <https://replit.com/@jjoco/python-classes>
@@ -13,7 +13,7 @@ class MyClass:
 ```
 Code sample: <https://replit.com/@jjoco/python-fields>
 
-### constructor and instance methods
+### Constructor and instance methods
 ```python
 class MyClass:
     def __init__(self, *args):
@@ -45,7 +45,7 @@ class Rectangle:
     def get_area(self) -> int:
         return self.width * self.length
 ```
-### private methods and fields
+### Private methods and fields
 ```python
 class Rectangle:
     def __init__(self, width: int, height: int):
@@ -63,7 +63,7 @@ class Rectangle:
         return self._area
 ```
 
-## creating instance of class (ie object)
+## Creating instance of class (ie object)
 
 ```python
 rect = MyRectangle(5, 6)
