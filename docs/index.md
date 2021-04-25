@@ -13,7 +13,7 @@ Python is a dynamically-typed, garbage-collected, strongly-typed, interpreted la
 
 As an FYI, CPython is Python's most widely used implementation.
 ## Why use Python?
-- It's very easy to learn;, to read, and to write programs
+- It's very easy to learn, to read, and to write programs
 - It supports multiple programming paradigms: concurrency, functional, generic, OOP, structural, etc.
 - It can be used as a scripting language
 - There are many libraries (especially in scientific computing) and community support

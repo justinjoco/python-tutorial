@@ -154,7 +154,7 @@ C
 ```
 
 ## Multiple condition checking
-In Python, you can check multiple conditions in an `if` or `elif` before deciding to execute its respective code block. Important keywords are `and`, `or`, and `not`. 
+In Python, you can check multiple conditions in an `if` or `elif` before deciding to execute its respective code block. Important keywords are logical operators `and`, `or`, and `not`. 
 
 ### `and`
 If you want two conditions to be met before executing a block, use the `and` keyword (`&&` in other languages).
@@ -211,3 +211,21 @@ Go outside
 '''
 ```
 Obviously, if I initially set `weather = "raining"`, then that code block would not execute.
+
+### Mixing multiple logical operators
+You can have multiple logical operators in the same conditional line; use parentheses to denote which logical comparisons should take priority over others; an abstract example can look like:
+```python
+if (condition_1 or condition_2) and (condition_3 or condition_4):
+    #Do stuff
+```
+Or look like 
+```python
+if (condition_1 and condition_2) or (condition_3 or condition_4):
+    #Do stuff
+```
+In both of these examples, the result of the parentheses are calculated first, then the results are compared:
+```python
+if condition_1_2 or condition_3_4:
+    #Do stuff
+```
+ This example can continue ad infintum.
