@@ -5,7 +5,7 @@ Classes are blueprints of objects or data structures. Objects of a class contain
 
 Python supplies many basic types and data structures; however, these are all very generic and would not be useful by themselves if the developer wants to do something specific for in their program. This is where classes come in.
 
-Let's say I wanted to create a program involving basic shapes and their operations. We can create a blueprint for shapes by creating a new class, and when we want to create new shapes for our program, we can create new instances (or objects) of that `Shape` class. Each `Shape` object would have common field names and common methods, which makes code implementation easier and reusable.
+Let's say I wanted to create a program involving rectangles and their operations. We can create a blueprint for rectangles by creating a new class, and when we want to create new rectangles for our program, we can create new instances (or objects) of that `Rectangle` class. Each `Rectangle` object would have common field names and common methods, which makes code implementation easier and reusable.
 
 The programming paradigm of creating and manipulating objects and classes is called "object-oriented programming" (OOP).
 
