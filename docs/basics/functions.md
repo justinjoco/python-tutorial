@@ -4,13 +4,13 @@ Functions are like any mathematical function: you put something in, the function
 ## Defining a function
 ```python
 def function_name(input1 , ...):
-    Do stuff
+   # Do stuff
 ```
 
 Function inputs and outputs need not have type hints; however, it is generally good code convention to have types hinted, anyway:
 ```python
 def function_name(input1: type1 , input2: type2 ...) -> return_type:
-    Do stuff
+   # Do stuff
 ```
 
 

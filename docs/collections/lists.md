@@ -58,6 +58,7 @@ world
 
 ### Iterating through a list via enumerate 
 Sample: <https://replit.com/@jjoco/python-enumerate>
+
 Python has a special function called `enumerate`. `enumerate`'s parameter is a list, and it returns an *enumeration* of the list that allows a dev to loop through a list's indicies and elements simultaneously. 
 
 ```python

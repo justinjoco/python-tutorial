@@ -16,15 +16,15 @@ nav:
   - Collections: 
     - Lists: collections/lists.md
     - Dictionaries: collections/dictionaries.md
-    - Tuples: collections/tuples.md
-    - Sets: collections/sets.md
-    - Comprehensions: collections/comprehensions.md
+#    - Tuples: collections/tuples.md
+#    - Sets: collections/sets.md
+#    - Comprehensions: collections/comprehensions.md
   - Object-Oriented Programming:
     - Classes and Objects: oop/classes.md
     - Inheritance: oop/inheritance.md
-  - Python Utilities:
-    - Map, Filter, Reduce: utils/functional.md
-    - Lambdas: utils/lambdas.md
+#  - Python Utilities:
+#    - Map, Filter, Reduce: utils/functional.md
+#    - Lambdas: utils/lambdas.md
   
 markdown_extensions:
   - pymdownx.highlight:

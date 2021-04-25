@@ -1,5 +1,6 @@
 ## Primitive data types
 Python includes many primitive data types like many other languages.
+
 - String
     - `str`
 - Number types
@@ -8,7 +9,8 @@ Python includes many primitive data types like many other languages.
     - `complex`
 - Boolean types
     - `bool`
-Notice that there is no `char` data type.
+
+Notice that there is no `char` data type to represent a character-type.
 ## Assigning variables 
 Code sample link: <https://replit.com/@jjoco/python-vars>
 
@@ -33,28 +35,28 @@ In Python, there are different operators between two operands: arithmetic, logic
 ### Arithmetic
 Python supports arithmetic between two variables:
 
-- Addition: `+` : `x + y`
-- Subtraction: `-`:  `x - y`
-- Multiplication: `*`:  `x * y`
-- Division: `/`: `x / y`
-- Floor (Integer) Division `//`: `x // y`
-- Modulo `%`: `x % y`
-- Exponent `**`: `x**y`
+- Addition: `+` : `x + y` --> `(5 + 2) == 7` 
+- Subtraction: `-`:  `x - y` --> `(5 - 2) == 3` 
+- Multiplication: `*`:  `x * y` --> `(5 * 2) == 10` 
+- Division: `/`: `x / y` --> `(5 / 2) == 2.5`  
+- Floor (Integer) Division `//`: `x // y` --> `(5 // 2) == 2` 
+- Modulo (Remainder) `%`: `x % y` --> `(5 % 2) == 1`  
+- Exponent `**`: `x**y` --> `(5 ** 3) == 125` 
 
 ### Logical 
 Comparison operators between two operands are supported
 
-- Less than `<`: `x < y`
-- Less than or equal to `<=`: `x <= y`
-- Equal to `==`: `x == y`
-- Greater than or equal to `>=`: `x >= y`
-- Greater than `>`: `x > y`
-- Not equal `!=`: `x != y`
+- Less than `<`: `x < y` --> `(5 < 2) == False` 
+- Less than or equal to `<=`: `x <= y` --> `(5 <= 2) == False` 
+- Equal to `==`: `x == y` --> `(5 == 2) == False` 
+- Greater than or equal to `>=`: `x >= y` --> `(5 >= 2) == True` 
+- Greater than `>`: `x > y` --> `(5 > 2) == True` 
+- Not equal `!=`: `x != y` --> `(5 != 2) == True` 
 
 ### Arithmetic assignment operators
 Assigning a variable the result of an arithmetic operation between the variable's previous value and another operand is supported.
 
-- Add, then assign: `+=`: `x += y`
+- Add, then assign: `+=`: `x += y` 
 - Subtract, then assign `-=`: `x -= y`
 - Multiply, then assign `*=`: `x *= y`
 - Divide, then assign `/=`: `x /= y`
