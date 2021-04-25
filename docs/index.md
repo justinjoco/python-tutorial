@@ -4,6 +4,10 @@ This tutorial is intended for those who have had at least some experience coding
 
 I will be using Python3.6 (since this version includes "type-hinting") and cover introductory to intermediate Python concepts, from basic syntax to object-oriented programming. This will neither go over popular Python modules like numpy, scipy, requests, etc, nor teach data structures and algorithms fundamentals.
 
+**Please leave your feedback here** <https://forms.gle/SxPoW1JhZxGMCCfM8>.
+
+**To raise an issue on Github for feature requests or bug fixes, use this** <https://github.com/justinjoco/python-tutorial/issues>
+
 ## What is Python?
 
 Python is a dynamically-typed, garbage-collected, strongly-typed, interpreted language.

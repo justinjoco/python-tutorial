@@ -1,4 +1,8 @@
 site_name: Python Tutorial
+
+repo_name: justinjoco/python-tutorial
+repo_url: https://github.com/justinjoco/python-tutorial
+
 theme:
   name: material
   features:
