@@ -137,7 +137,7 @@ print(my_list[2])
 
 
 ## Iterating through a list via range
-Devs can also iterate through a list via indices, but they still need to use the iterator syntax mentioned earlier using a special function `range(n)`. `range(n)` returns a sequence of numbers from `0` to `n-1`. Like most languages, Python list indexing starts from `0`.
+Devs can also iterate through a list via indices, but they still need to use the iterator syntax mentioned earlier using a special function `range(n)`. `range(n)` returns a sequence of numbers from `0` to `n-1`.
 To iterate through an entire list using `range`, input the length of the list as its parameter.
 ```python
 bigger_list = [1,5,8,3,8,0,3]
