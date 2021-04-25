@@ -6,7 +6,7 @@ Let's say we have a `Rectangle` class that has fields `width` and `length`. Let'
 ```python
 rect = Rectangle(6 , 6)
 ```
-There's nothing wrong with setting a rectangle with equivalent width and height; however, it will be annoying for the caller to keep on writing `Rectangle(some_number , some_number)` if there will be a lot of these type of rectangles. To resolve this, we can write a new `Square` class, which is a rectangle with equivalent `width` and `height`.
+There's nothing wrong with setting a rectangle with equivalent width and length; however, it will be annoying for the caller to keep on writing `Rectangle(some_number , some_number)` if there will be a lot of these type of rectangles. To resolve this, we can write a new `Square` class, which is a rectangle with equivalent `width` and `length`.
 
 ## Inheritance at work
 Let's take the simple implementation of the `Rectangle` class from the previous section:
