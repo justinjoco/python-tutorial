@@ -16,7 +16,7 @@ As an FYI, CPython is Python's most widely used implementation.
 - It's very easy to learn, to read, and to write programs
 - It supports multiple programming paradigms: concurrency, functional, generic, OOP, structural, etc.
 - It can be used as a scripting language
-- There are many libraries (especially in scientific computing) and community support
+- There are many libraries (especially in scientific computing) to take advantage of
 - There is plenty of community support, in terms of documentation and a plethora of questions asked and answered (StackOverflow is your friend).
 ### Why should I not use Python?
 - Python is slower compared to other lower-level languages like C, C++, Java
