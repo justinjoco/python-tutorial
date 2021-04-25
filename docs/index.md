@@ -1,4 +1,6 @@
-This tutorial is intended for developers who have had at least some experience coding in other languages. At a later point, I will revise this to be more accessible to newcomers. 
+This tutorial is intended for developers who have had at least some experience coding in other languages. The goal is for readers of this tutorial is to understand how to read and write basics to non-trival programs in Python.
+
+ I've separated this tutorial into two parts: `Need to Know` consists of concepts that those who learn Python should know. `Good to Know` consists of supplemental features can enhance how you use Python, but are not necessary to make non-trival programs and applications. 
 
 I will be using Python 3 and cover introductory to intermediate Python concepts, from basic syntax to object-oriented programming. This will neither go over popular Python modules like numpy, scipy, requests, etc, nor teach data structures and algorithms fundamentals.
 
@@ -16,7 +18,10 @@ As an FYI, CPython is Python's most widely used implementation.
 - It's very easy to learn, to read, and to write programs
 - It supports multiple programming paradigms: concurrency, functional, generic, OOP, structural, etc.
 - It can be used as a scripting language
-- There are many libraries (especially in scientific computing) to take advantage of
+- There are many libraries in different fields, including but limited to the following:
+    - machine learning and artificial intelligence (ML/AI)
+    - web development
+    - scientific computing
 - There is plenty of community support, in terms of documentation and a plethora of questions asked and answered (StackOverflow is your friend).
 ### Why should I not use Python?
 - Python is slower compared to other lower-level languages like C, C++, Java
