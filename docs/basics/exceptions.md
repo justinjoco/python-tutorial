@@ -43,7 +43,7 @@ except Exception:
     #Do when any other exception is thrown
 ```
 
-### Finally
+## Finally
 
 Finally, there's the `finally` block, which generally executes right before the `try` statement completes:
 ```python

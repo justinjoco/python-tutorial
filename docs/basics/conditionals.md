@@ -20,7 +20,7 @@ elif condition:
 ```
 
 
-### Else
+## Else
 The syntax for `else` is the following: 
 ```python
 .
@@ -30,7 +30,7 @@ else:
     #Do stuff
 ```
 
-### Combined if-else
+## Combined if-else
 `if`, `elif` and `else` can be combined like so:
 ```python
 if condition_1:

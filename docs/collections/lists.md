@@ -56,7 +56,7 @@ world
 ```
 
 
-## Iterating through a list via enumerate 
+### Iterating through a list via enumerate 
 Sample: <https://replit.com/@jjoco/python-enumerate>
 Python has a special function called `enumerate`. `enumerate`'s parameter is a list, and it returns an *enumeration* of the list that allows a dev to loop through a list's indicies and elements simultaneously. 
 
@@ -103,8 +103,8 @@ jndex:  6
 
 Likewise if the index of an element does not matter, use an underscore in place of the index.
 ```python
-for _, walue in enumerate(my_list):
-  print("Value: ", walue)
+for _, value in enumerate(my_list):
+  print("Value: ", value)
 '''
 Value:  2
 Value:  21

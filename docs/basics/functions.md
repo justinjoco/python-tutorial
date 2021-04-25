@@ -7,20 +7,19 @@ def function_name(input1 , ...):
     Do stuff
 ```
 
-Function inputs and outputs need not have type hints; however, it is generally good code convention to have types hinted, anyway.
-## Type hinting
+Function inputs and outputs need not have type hints; however, it is generally good code convention to have types hinted, anyway:
 ```python
-def function_name(input1:type1 , input2: type2 ...) -> return_type:
+def function_name(input1: type1 , input2: type2 ...) -> return_type:
     Do stuff
 ```
 
-To call a function, use the following syntax
+
 ## Calling a function
+To call a function, use the following syntax
 ```python
 function_name(input1, input2)
 ```
 What this is doing is invoking a function to do work on the given inputs. If the function is set to return some output, then the calling function can retrieve the output value like so:
-## Calling a function
 ```python
 var_1 = function_name(input1, input2)
 ```
@@ -31,6 +30,7 @@ Let's go through a more concrete example. Let's say I wanted to create a functio
 def a():
     #Do stuff
 ```
+
 It is very good coding practice to be precise with your function names, especially in bigger projects. Let's implement the doubling function:
 ```python
 def double(x):
