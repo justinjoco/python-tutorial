@@ -7,6 +7,9 @@ Code sample link: <https://replit.com/@jjoco/python-sets>
 init_set = set()
 print(init_set)
 
+#Create a set using curly braces
+set_with_curly_braces = {"hi", "there", "hello"}
+
 #Create a set from an initial list
 set_from_list = set(["hello", "world", "set"])
 print(set_from_list)
@@ -15,7 +18,7 @@ print(set_from_list)
 ```python
 #Check if element exists in set
 if "hello" in set_from_list:
-  print("hello is seen" )
+  print("hello is seen")
 ```
 ## Pushing an element into a set
 ```python
@@ -33,3 +36,11 @@ for elem in set_from_list:
 ```python
 set_from_list.clear()
 ```
+
+## Set operations
+
+### Union
+
+### Intersection
+
+### Difference

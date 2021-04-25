@@ -11,7 +11,7 @@ So, if you wanted to maintain a running list of users with fields `age`, `name`,
 ```
 Since we know that the size of the tuples are constant, we can more easily process them.
 ## Creating a tuple
-You can create a tuple using parentheses like so:
+You can create a tuple using parentheses `()` like so:
 ```python
 empty_tuple = ()
 packed_tuple = (2, 5 , 7, 3, 2, 1, 9)
