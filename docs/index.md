@@ -1,4 +1,4 @@
-This tutorial is intended for developers who have had at least some experience coding in other languages. The goal is for readers of this tutorial is to understand how to read and write basics to non-trival programs in Python.
+This tutorial is intended for those who have had at least some experience coding in other languages. The goal is for readers to understand how to read and write basic to non-trival programs in Python.
 
  I've separated this tutorial into two parts: `Need to Know` consists of concepts that those who learn Python should know. `Good to Know` consists of supplemental features can enhance how you use Python, but are not necessary to make non-trival programs and applications. 
 
