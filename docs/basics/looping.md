@@ -47,7 +47,31 @@ In other languages, to iterate through lists or arrays, the most common way is t
 for i in range(n):
     #Process i
 ```
-But in case you want to set the sequence's start value, you can use the signature `range(start, stop)`, in which a sequence of numbers from `start` to `stop-1` is returned. If you want to include the step, as well, use `range(start, stop, step)`, which returns a sequence of numbers from `start` to `stop-1` in steps of `step`.
+But in case you want to set the sequence's start value, you can use the signature `range(start, stop)`, in which a sequence of numbers from `start` to `stop-1` is returned. If you want to include the step, as well, use `range(start, stop, step)`, which returns a sequence of numbers from `start` to `stop-1` in steps of `step`:
+```python
+for i in range(-1, 5):
+    print(i)
+'''
+Prints out:
+-1
+0
+1
+2
+3
+4
+'''
+
+for i in range(0, 10, 2):
+    print(i)
+'''
+Prints out:
+0
+2
+4
+6
+8
+'''
+```
 
 So, to iterate through all elements in a list via indices, you'll have to input the length of the list as the argument in the `range(n)` function:
 ```python
