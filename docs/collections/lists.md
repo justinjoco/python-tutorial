@@ -1,6 +1,6 @@
 Code sample link: <https://replit.com/@jjoco/python-lists>
 
-In Python, lists are used to keep a record of data values, each of which can be processed. These can be thought of as arrays in other languages, but more function similarly to `ArrayLists` in Java. Python lists start indexing at 0.
+In Python, lists are used to keep a record of values of a specific data type, each of which can be processed. These can be thought of as arrays in other languages, but more function similarly to `ArrayLists` in Java. Python lists start indexing at 0.
 
 ## Creating a list
 To create an empty list, one can use square brackets `[]`, like so:
@@ -48,7 +48,7 @@ hello_list = ["hello", "world", "!"]
 for elem in hello_list:
   print(elem)
 '''
-STDOUT:
+Prints out:
 hello
 world
 !
@@ -68,7 +68,7 @@ for index, value in enumerate(my_list):
   print("Index: ", index)
   print("Value: ", value)
 '''
-STDOUT:
+Prints out:
 Index:  0
 Value:  2
 Index:  1
@@ -91,7 +91,7 @@ In case the value of an element does not matter, a dev can use an underscore `_`
 for jndex, _ in enumerate(my_list):
   print("jndex: ", jndex)
 '''
-STDOUT:
+Prints out:
 jndex:  0
 jndex:  1
 jndex:  2

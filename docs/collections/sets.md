@@ -1,6 +1,6 @@
 Code sample link: <https://replit.com/@jjoco/python-sets>
 
-## Why to use set
+## Why use sets
 ## Creating a set
 ```python
 #Create empty set

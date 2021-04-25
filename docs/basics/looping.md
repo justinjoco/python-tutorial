@@ -20,7 +20,7 @@ string_var = "asdfjk;"
 for char in string_var:
     print(char)
 '''
-STDOUT:
+Prints out:
 a
 s
 d
@@ -72,7 +72,7 @@ while counter < 5:
     print(counter)
     counter+=1
 '''
-STDOUT:
+Prints out:
 0
 1
 2

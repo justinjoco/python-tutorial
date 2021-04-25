@@ -27,8 +27,8 @@ nav:
       - Sets: collections/sets.md
       - Comprehensions: collections/comprehensions.md
     - Python Utilities:
-      - Map, Filter, Reduce: utils/functional.md
       - Lambdas: utils/lambdas.md
+      - Map, Filter, Reduce: utils/functional.md
   
 markdown_extensions:
   - pymdownx.highlight:

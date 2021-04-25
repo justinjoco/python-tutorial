@@ -18,7 +18,7 @@ count = 6
 if count > 4:
     print("Above 4")
 '''
-STDOUT:
+Prints out:
 Above 4
 '''
 ```
@@ -53,7 +53,7 @@ elif count == 3:
     print("Equal to 3")
 
 '''
-STDOUT:
+Prints out:
 "Equal to 3"
 '''
 ```
@@ -79,7 +79,7 @@ if count > 4:
 else:
     print("Not above 4")
 '''
-STDOUT:
+Prints out:
 "Not above 4"
 '''
 ```
@@ -149,7 +149,7 @@ elif test_grade >= 60:
 else:
     print("F")
 '''
-STDOUT:
+Prints out:
 C
 '''
 ```
@@ -173,7 +173,7 @@ if energy_levels < 30 and fridge_content < 30 :
     print("Order delivery")
 
 '''
-STDOUT
+Prints out:
 Order delivery
 '''
 ```
@@ -194,7 +194,7 @@ period_of_day = "afternoon"
 if period_of_day == "midnight" or energy_levels < 10 :
     print("Go rest")
 '''
-STDOUT
+Prints out:
 Go rest
 '''
 ```
@@ -213,7 +213,7 @@ weather = "sunny"
 if not weather == "raining":
     print("Go outside")
 '''
-STDOUT
+Prints out:
 Go outside
 '''
 ```

@@ -1,6 +1,6 @@
 Code sample link: <https://replit.com/@jjoco/python-comprehensions>
 
-### Why use comprehensions?
+### Why use comprehensions
 
 ### List comprehensions
 ```

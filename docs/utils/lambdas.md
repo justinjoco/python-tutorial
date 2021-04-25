@@ -1,6 +1,6 @@
 Code sample link: <https://replit.com/@jjoco/python-lambdas>
 
-## why use lambda functions
+## Why use lambda functions
 
 ## Lambdas are anonymous functions
 ```python
