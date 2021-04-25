@@ -1,6 +1,6 @@
 Code sample link: <https://replit.com/@jjoco/python-lists>
 
-In Python, arrays are `lists` and function similarly to `ArrayLists` in Java. They are used to keep a number of values to be used later on for processing. Python lists start indexing at 0.
+In Python, lists are used to keep a record of data values, each of which can be processed. These can be thought of as arrays in other languages, but more function similarly to `ArrayLists` in Java. Python lists start indexing at 0.
 
 ## Creating a list
 To create an empty list, one can use square brackets `[]`, like so:
