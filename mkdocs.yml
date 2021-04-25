@@ -3,28 +3,32 @@ theme:
   name: material
   features:
     - navigation.sections
+    - navigation.tabs
 nav:
   - Overview: index.md
-  - Basics: 
-    - Syntax: basics/syntax.md
-    - Variables and Data Types: basics/vars.md
-    - Conditionals: basics/conditionals.md
-    - Looping: basics/looping.md
-    - Importing Modules: basics/importing.md
-    - Functions: basics/functions.md
-    - Exception Handling: basics/exceptions.md
-  - Collections: 
-    - Lists: collections/lists.md
-    - Dictionaries: collections/dictionaries.md
-#    - Tuples: collections/tuples.md
-#    - Sets: collections/sets.md
-#    - Comprehensions: collections/comprehensions.md
-  - Object-Oriented Programming:
-    - Classes and Objects: oop/classes.md
-    - Inheritance: oop/inheritance.md
-#  - Python Utilities:
-#    - Map, Filter, Reduce: utils/functional.md
-#    - Lambdas: utils/lambdas.md
+  - Need to Know:
+    - Basics: 
+      - Syntax: basics/syntax.md
+      - Variables and Data Types: basics/vars.md
+      - Conditionals: basics/conditionals.md
+      - Looping: basics/looping.md
+      - Importing Modules: basics/importing.md
+      - Functions: basics/functions.md
+      - Exception Handling: basics/exceptions.md
+    - Collections: 
+      - Lists: collections/lists.md
+      - Dictionaries: collections/dictionaries.md
+    - Object-Oriented Programming:
+      - Classes and Objects: oop/classes.md
+      - Inheritance: oop/inheritance.md
+  - Good to Know:
+    - More on Collections:
+      - Tuples: collections/tuples.md
+      - Sets: collections/sets.md
+      - Comprehensions: collections/comprehensions.md
+    - Python Utilities:
+      - Map, Filter, Reduce: utils/functional.md
+      - Lambdas: utils/lambdas.md
   
 markdown_extensions:
   - pymdownx.highlight:
