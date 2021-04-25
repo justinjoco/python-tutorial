@@ -1,4 +1,4 @@
-This tutorial is intended for developers who have had experience coding in other languages. At a later point, I will revise this to be accessible to beginners. 
+This tutorial is intended for developers who have had at least some experience coding in other languages. At a later point, I will revise this to be much more accessible to newcomers. 
 
 I will be using Python 3 and cover introductory to intermediate Python concepts, from basic syntax to object-oriented programming. This will also go over other Python features that could prove useful to developers. This will neither go over popular Python modules like numpy, scipy, requests, etc, nor teach data structures and algorithms fundamentals.
 
