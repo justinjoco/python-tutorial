@@ -42,11 +42,12 @@ for element in list_var:
 ```
 
 ### Iterate through a range of ints
-In other languages, to iterate through lists or arrays, the most common way is to use array indices to access array values. The key is to use Python's in-built `range(n)` function, which returns a sequence of integers for `0` to `n-1`.
+In other languages, to iterate through lists or arrays, the most common way is to use array indices to access array values. The key is to use Python's in-built `range()` function, which returns a sequence of integers for `0` to `n-1` if you use the `range(n)` signature:
 ```python
 for i in range(n):
     #Process i
 ```
+But in case you want to set the sequence's start value, you can use the signature `range(start, stop)`, in which a sequence of numbers from `start` to `stop-1` is returned. If you want to include the step, as well, use `range(start, stop, step)`, which returns a sequence of numbers from `start` to `stop-1` in steps of `step`.
 
 So, to iterate through all elements in a list via indices, you'll have to input the length of the list as the argument in the `range(n)` function:
 ```python

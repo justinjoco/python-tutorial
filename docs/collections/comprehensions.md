@@ -1,8 +1,8 @@
 Code sample link: <https://replit.com/@jjoco/python-comprehensions>
 
-### Why use comprehensions
+## Why use comprehensions
 
-### List comprehensions
+## List comprehensions
 ```
 def pow(x: float, n: int) -> float:
   return x ** n
@@ -16,7 +16,7 @@ doubled_list = [num*2 for num in base_list]
 print(doubled_list)
 ```
 
-### Dictionary comprehensions
+## Dictionary comprehensions
 ```
 #From list
 cubed_map = {x : x**3 for x in base_list}
@@ -28,7 +28,7 @@ card_rev_map = { card[:-1] : value+4 for card, value in base_map.items()}
 print(card_rev_map)
 ```
 
-### Set comprehensions
+## Set comprehensions
 ```python
 #From list or set
 cubed_set = {x**3 for x in base_list}
@@ -39,3 +39,5 @@ my_map = {1:4, 3:6, 2:8}
 add_set = {key+value for key, value in my_map.items()}
 print(add_set)
 ```
+
+## Generator comprehensions
