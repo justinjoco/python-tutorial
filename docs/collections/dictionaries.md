@@ -2,7 +2,7 @@ Code sample link: <https://replit.com/@jjoco/python-dictionaries>
 
 When you go to the grocery store, each item in the store has an associated price tag to it. You can easily associate an item with a price Python's in-built data structure: the dictionary. 
 
-Dictionaries are data structures that maps keys to values. These maintain a running record of key-value pairs. For those familiar in other programming languages, dictionaries are Python's hashtables and hashmaps.
+Dictionaries are data structures that maps keys to values. Like lists, these maintain a running record of elements. Unlike lists, these store key-value pairs, and keys cannot be duplicated, but multiple keys can have the same value. For those familiar in other programming languages, dictionaries are Python's hashtables and hashmaps.
 
 With a dictionary, you can quickly find the price of specific item, or update the price of another item without needing to look through the entire grocery inventory. To be more technical, dictionary reads and writes have `O(1)` time complexity. A very simple item-price dictionary can look like the following:
 ```python
