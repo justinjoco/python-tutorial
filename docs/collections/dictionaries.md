@@ -10,7 +10,7 @@ With a dictionary, you can quickly find the price of specific item, or update th
 ```
 
 
-For the rest of the tutorial, I will be using `_map` as variable names for dictionary types, as associative key-value structures are generally called `maps` in other languages. In Python 3.6+, dictionaries maintain element insertion order, so you need not use `OrderedDict` to maintain an ordered dictionary, though it may be helpful for readability. 
+For the rest of the tutorial, I will be using `_map` as variable names for dictionary types, as associative key-value structures are generally called `maps` in other languages. In Python 3.6 and later versions, dictionaries maintain element insertion order, so you need not use `OrderedDict` to maintain an ordered dictionary, though it may be helpful for readability. 
 
 ## Creating a dictionary
 To create a dictionary, use curly braces:

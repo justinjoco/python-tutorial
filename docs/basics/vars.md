@@ -20,7 +20,7 @@ countNoType = 5
 ```
 If a variable is assigned to a literal, the interpreter will figure out the type of the variable based on the literal used, an integer in this case.
 ### Type hinting
-In Python 3.5+, developers can *hint* to the data type used for a variable, like so:
+Starting from Python 3.5, developers can *hint* to the data type used for a variable, like so:
 ```python
 countWithType: int = 3
 ```
