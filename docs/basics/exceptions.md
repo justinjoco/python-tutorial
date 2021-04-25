@@ -1,4 +1,5 @@
 Code sample link: <https://replit.com/@jjoco/python-exceptions>
+
 Let's say you wanted to execute some block of code, that could potentially throw an error (specifically called Exceptions). Normally, if a block of code throws an error, the currently executing program would crash. To prevent this from happening, one can wrap such block of code using `try-except` blocks, which are `try-catch` blocks in many other languages.
 
 ## Basic try-except
