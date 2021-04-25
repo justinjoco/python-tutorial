@@ -62,7 +62,7 @@ Assigning a variable the result of an arithmetic operation between the variable'
 - Divide, then assign `/=`: `x /= y`
 - Modulo, then assign: `%=`: `x %= y`
 
-Unlike other languages, Python does not support the increment (ie `++`) or decrement (`--`) operators.
+Unlike other languages, Python does not support the increment (ie `++`) or decrement (`--`) operators. You need to use `+=1` or `-=1` on the accumulator.
 ### Bitwise
 Operations between numbers on a bit-level are supported.
 

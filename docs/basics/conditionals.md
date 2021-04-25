@@ -4,13 +4,14 @@ Conditionals are used to decide whether to run different codeblocks given some c
 
 ## If statement
 If-statements in Python are slightly different from other language syntax. Take the following example:
-
 ```python
 if condition:
     #Do stuff
 ```
+If the `condition` is satisifed (ie is `True`), then its code block is executed.
+
 There are no parentheses surrounding the condition statement, and there are no curly braces wrapping the conditional code block. 
-Code statements that belong to the if code block must be indented once more with respect to the if statement.
+Code statements that belong to the `if` code block must be indented once more with respect to the `if` statement.
 The following is a valid if-statement:
 ```python
 count = 6
@@ -21,7 +22,7 @@ STDOUT:
 Above 4
 '''
 ```
-In the following example, since `count` is greater than `4`, the program goes into the if code block to execute the print statement. However, in the following example:
+In the following example, since `count` is greater than `4`, the program goes into the `if` code block to execute the print statement. However, in the following example:
 ```python
 count = 3
 if count > 4:
@@ -31,7 +32,7 @@ if count > 4:
 Nothing is printed to standard output
 '''
 ```
-the program will simply skip the if statement since the if condition was not satisfied.
+the program will simply skip the `if` statement since the `if` condition was not satisfied.
 ## Elif 
 Python does not use `else if`; it uses `elif`, instead.
 ```python
@@ -57,7 +58,7 @@ STDOUT:
 '''
 ```
 
-Here, count does not satisfy the initial if condition; fortunately, the elif condition is satisfied, and its respective code block is executed. Of course, if neither the `if` nor `elif` conditions are satisfied, any code within those blocks will be skipped.
+Here, count does not satisfy the initial `if` condition; fortunately, the `elif` condition is satisfied, and its respective code block is executed. Of course, if neither the `if` nor `elif` conditions are satisfied, any code within those blocks will be skipped.
 
 ## Else
 The `else` block the block executed in a bigger `if-else` block in case neither the initial `if` condition nor the subsequent `elif` conditions are met.
@@ -134,7 +135,7 @@ elif condition_4:
 else condition_n:
     #Do stuff
 ```
-Here's an example with multiple `elifs` describing what letter grade to print out given a test grade:
+Here's an example with multiple `elif`'s choosing what letter grade to print out given a test grade:
 ```python
 test_grade = 70
 if test_grade >= 90:
@@ -158,9 +159,11 @@ In Python, you can check multiple conditions in an `if` or `elif` before decidin
 
 ### `and`
 If you want two conditions to be met before executing a block, use the `and` keyword (`&&` in other languages).
+
 Syntax:
 ```python
 if condition_1 and condition_2:
+    #Do stuff
 ```
 Let's say we wanted if I should order takeout based on my energy levels and the amount of food I already have in my fridge:
 ```python
@@ -178,9 +181,11 @@ Since both conditions are satisfied, the `if` block is executed. Because I'm too
 
 ### `or`
 If you want either of two conditions to meet before executing a code block, use `or`  (`||` in other languages). 
+
 Syntax:
 ```python
 if condition_1 or condition_2:
+    #Do stuff
 ```
 In the following example, I decide if I should rest depending on the period of the day and my energy levels.
 ```python
@@ -196,9 +201,11 @@ Go rest
 In the above example, even though only one of the conditions was satisfied, the `if` block is executed. Even though it's the afternoon, my energy levels are low enough, such that I decide to rest.
 ### `not`
 If you don't want a condition to be met before executing a code block, use `not`  (`!` in other languages).
+
 Syntax:
 ```python
 if not condition:
+    #Do stuff
 ```
 To translate the decision to go outside only if the weather condition is not raining, we can do the following:
 ```python
