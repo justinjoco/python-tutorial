@@ -64,4 +64,14 @@ jackie
 2
 '''
 ```
-Here, we unpack all three elements of the item tuple and can process them separately.
+Here, we unpack all three elements of the 3-tuple and can process them separately.
+
+
+Recall that when we process a dictionary's items using `dictionary.items()`, we use syntax:
+```python
+for some_key, some_val in some_map.items():
+    .
+    .
+    .
+```
+This shows that the return value of `.items()` is a list of 2-tuples, and we're unpacking each 2-tuple item into `some_key` and `some_val`.
