@@ -20,7 +20,7 @@ class MyClass:
 
 ```
 ### Constructor and instance methods
-Though it's not mandatory, most classes contain a constructor method, which sets the initial state of a newly created object of a given class:
+Though it's not mandatory, most classes implement the constructor method `__init__(self, ...)`, which sets the initial state of a newly created object of a given class:
 
 ```python
 class MyClass:
