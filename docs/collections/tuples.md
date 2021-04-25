@@ -41,4 +41,27 @@ Prints out:
 2019
 '''
 ```
+To continue on the example from before about a user_list, we can use unpacking to more easily process the user list:
+```python
+user_list = [(25, "justin", 0), (38, "jack", 1), (35, "jackie", 2)]
+for age, name, id in user_list:
+  print(age)
+  print(name)
+  print(id)
+  print()
+'''
+Prints out:
+25
+justin
+0
 
+38
+jack
+1
+
+35
+jackie
+2
+'''
+```
+Here, we unpack all three elements of the item tuple and can process them separately.
