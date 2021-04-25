@@ -1,7 +1,10 @@
 site_name: Python Tutorial
+site_author: "Justin-Anthony Joco"
 
 repo_name: justinjoco/python-tutorial
 repo_url: https://github.com/justinjoco/python-tutorial
+
+copyright:   'Copyright &copy; 2021 Justin-Anthony Joco'
 
 theme:
   name: material
