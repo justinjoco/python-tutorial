@@ -1,6 +1,6 @@
 
-Code links: <https://replit.com/@jjoco/python-fields>
- 
+Code links: <https://replit.com/@jjoco/python-classes>
+
 Classes are blueprints of objects or data structures. Objects of a class contain their own attributes(or fields) and functions (or methods).
 
 Python supplies many basic types and data structures; however, these are all very generic and would not be useful by themselves if the developer wants to do something specific for in their program. This is where classes come in.

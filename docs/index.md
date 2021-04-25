@@ -34,7 +34,7 @@ As an FYI, CPython is Python's most widely used implementation.
     - Google
     - Amazon
     - Spotify
-- Some popular applications use it:
+- Popular applications use it, such as:
     - Dropbox - file hosting service (originally written in Python -> migrated to Go)
     - SciPy - scientific computing library
     - The Sims 4 - life simulation video game
