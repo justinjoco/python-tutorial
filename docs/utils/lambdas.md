@@ -1,5 +1,6 @@
 Code sample link: <https://replit.com/@jjoco/python-lambdas>
 
+Lambda functions can be thought of short-term, concise, impromptu functions that are intended to be thrown away after one or a couple of uses.
 ## Why use lambda functions
 
 ## Lambdas are anonymous functions
