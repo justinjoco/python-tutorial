@@ -32,7 +32,6 @@ nav:
     - More on Collections:
       - Tuples: collections/tuples.md
       - Sets: collections/sets.md
-      - Generators: collections/generators.md
       - Comprehensions: collections/comprehensions.md
     - Python Utilities:
       - Lambdas: utils/lambdas.md
