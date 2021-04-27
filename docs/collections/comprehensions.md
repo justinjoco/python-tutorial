@@ -1,6 +1,6 @@
 Code sample link: <https://replit.com/@jjoco/python-comprehensions>
 
-Comprehensions is neat Python feature that allows the creation of new collections (ie. data structures that contain data values) from previously-made collections in a syntactically concise way. We will cover list, dictionary, and set comprehensions in this tutorial.
+Comprehensions is neat Python feature that allows the creation of new collections (ie. data structures that contain elements, such as lists, dictionaries, etc.) from previously-made collections in a syntactically concise way. We will cover list, dictionary, and set comprehensions in this tutorial.
 
 ## List comprehensions
 List comprehensions allows the creation of new lists from other collections. The general syntax is the following:
