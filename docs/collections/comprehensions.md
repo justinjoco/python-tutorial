@@ -36,7 +36,7 @@ my_map = {key_func(elem) : value_func(elem) for elem in some_list if condition}
 #From dict
 my_map = {key_func(prev_key) : value_func(prev_value) for prev_key, prev_value in base_map.items() if condition}
 ```
-What's happening here is that we use the items (that satsify a given condition, if provided) in the given collection to create the key-value pairs in our new dictionary.
+What's happening here is that we use the items (that satisfy a given condition, if provided) in the given collection to create the key-value pairs in our new dictionary.
 
 Take the following example:
 ```python
@@ -61,6 +61,7 @@ my_set = {some_func(elem) for elem in some_list if condition}
 #From dict
 my_set = {some_func(key, value) for key, value in base_map.items() if condition}
 ```
+We use the items (that satisfy a given condition, if provided) in the given collection to create values in our new set.
 
 Consider the following:
 ```python
@@ -74,6 +75,45 @@ my_map = {5:7, 3:6, 2:8}
 add_set = {key+value for key, value in my_map.items() if value % key == 0}
 print(add_set) #{9, 10}
 ```
-In the first exapmle, we create a set of cubed values based on values of `base_list`. In the second, we create a new set, whose values are the sum of key-value pairs in `my_map`, given that a pair's value is a multiple of its key.
+In the first example, we create a set of cubed values based on values of `base_list`. In the second, we create a new set, whose values are the sum of key-value pairs in `my_map`, given that a pair's value is a multiple of its key.
 ## Generator comprehensions
 Generator comprehension syntax is the same as that of list/set comprehension, except with parentheses.
+```python
+#From list
+my_generator = (some_func(elem) for elem in some_list if condition)
+
+#From dict
+my_generator = (some_func(key, value) for key, value in base_map.items() if condition)
+```
+We use the items (that satisfy a given condition, if provided) in the given collection to create values in our new generator.
+
+Consider the following:
+```python
+#From list or set
+base_list = [2, 3, 4, 6, 7, 3, 2]
+cubed_gen = {x**3 for x in base_list}
+print(cubed_set) # <generator object <genexpr> at 0x7f3d25f47f90>
+for elem in cubed_gen:
+  print(elem)
+'''
+8
+27
+64
+216
+343
+27
+8
+'''
+#From dict
+my_map = {5:7, 3:6, 2:8}
+add_gen = (key+value for key, value in my_map.items() if value % key == 0)
+print(add_gen) # <generator object <genexpr> at 0x7f3d25f47f20>
+for elem in add_gen:
+  print(elem)
+'''
+Prints out:
+9
+10
+'''
+```
+Values in the generator are created the same way as the set comprehension example. Notice that we can only print out elements in the generator if iterate through them due to the on-demand nature of generators.
