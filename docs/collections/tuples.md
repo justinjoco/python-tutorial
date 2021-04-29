@@ -25,6 +25,13 @@ print(packed_tuple[1])
 
 print(packed_tuple[1:5])
 ```
+## Getting the length of a tuple
+To get the number of elements in a tuple (ie. its length), use the `len` function:
+```python
+tuple_length = len(my_tuple)
+```
+So, if `my_tuple = (2, True, False, "hello")`, then `len(my_tuple)` would be `4`.
+
 ## Unpacking a tuple
 Though it is not as common for lists and dictionaries to be unpacked, unpacking a tuple (ie assigning values within the tuple to external variables) is much more common due to its immutability:
 ```python

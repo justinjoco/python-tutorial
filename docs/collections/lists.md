@@ -135,6 +135,12 @@ print(my_list[2])
 #Output = 7
 ```
 
+## Getting the length of a list
+To get the number of elements in a list (ie. its length), use the `len` function:
+```python
+list_length = len(my_list)
+```
+So, if `my_list = [2, 21, 7, 8, 65 ,9 , 0]`, then `len(my_list)` would be `7`.
 
 ## Iterating through a list via range
 Devs can also iterate through a list via indices, but they still need to use the iterator syntax mentioned earlier using a special function `range(n)`. `range(n)` returns a sequence of numbers from `0` to `n-1`.

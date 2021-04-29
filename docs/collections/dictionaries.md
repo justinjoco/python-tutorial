@@ -43,6 +43,13 @@ banana_price_with_get = grocery_map.get("banana")
 ```
 Note that if a key-value pair does not exist, then `grocery_map["banana"] ` would throw an KeyError exception; whereas, `grocery_map.get("banana")` will return a `None` type.
 
+## Getting the length of a dictionary
+You can use `len` to get the number of key-value pairs in a dictionary (ie. its length) .
+```python
+dictionary_length = len(my_dictionary)
+```
+So, if `grocery_map = {"banana": 3.99, "bread": 2.99, "salmon": 10.99, "onion": 1.99}`, then `len(grocery_map)` would be `4`.
+
 ## Iterate through dictionary elements
 There are several ways to iterate through dictionaries.
 ### Via simple iteration

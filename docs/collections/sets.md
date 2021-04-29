@@ -49,6 +49,14 @@ Prints out:
 '''
 ```
 
+## Getting the length of a set
+You can use `len` to get the number elements in a set (ie. its length) .
+```python
+set_length = len(my_set)
+```
+So, if `my_set = {'set', 'world', 'hello'}`, then `len(my_set)` would be `3`.
+
+
 ## Iterating
 You can interate through a set like any other collection:
 ```python
