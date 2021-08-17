@@ -179,3 +179,13 @@ popped_item = bigger_list.pop()
 # bigger_list == [1,5,8,3,8,0]
 # popped_item == 3
 ```
+## Extending a list with another list
+To extend a list with another list (ie. concatenating the two lists), use the `extend` function:
+```python
+first_list = [2, 3, 5]
+# first_list == [2, 3, 5]
+
+second_list = [1, 4, 6]
+first_list.extend(second_list)
+# first_list == [2, 3, 5, 1, 4, 6]
+```
