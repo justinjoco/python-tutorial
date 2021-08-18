@@ -34,6 +34,12 @@ Even if a developer type hints, the multi-type list is still a valid list, like 
 my_list: List[str] = ["hello", 0, 1.5 , "name", True]
 ```
 If it is critical that a list is not to contain multiple types, do not rely on the Python interpreter out-of-the-box to prevent multi-type lists.
+
+A cool feature is that one can create a list of a certain size, with all values initialized. For example, to create a list of size 7 filled with `None`, you can write the following:
+```python
+occupied_list = [None] * 7
+# occupied_list == [None, None, None, None, None, None, None]
+```
 ## Iterating through a list
 The Python way of iterating through a list is very similar to how other languages use iterator looping.
 
