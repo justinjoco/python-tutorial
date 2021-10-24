@@ -167,13 +167,29 @@ bigger_list = [1,5,8,3,8,0,3]
 bigger_list.append(7)
 # bigger_list == [1,5,8,3,8,0,3,7]
 ```
-## Inserting a list element at a specific index
-To insert an element at a given index, use list method `insert(index, value)` to insert `value` at index `index`:
-```python
-bigger_list = [1,5,8,3,8,0,3]
 
-bigger_list.insert(1,4)
-# bigger_list == [1,4,5,8,3,8,0,3]
+
+## Slicing a list
+A list can be created from a previously created list by using the following syntax.
+
+Syntax
+
+- `example_list[:end]` => gets a list of elements from beginning of exampleList until index `end` (excluding element at index end)
+- `example_list[start:]` => gets a list of elements starting from index `start` (inclusive) until the end of exampleList
+- `example_list[start:end]` => gets a list of elements from exampleList starting from index `start` (inclusive) until the end index `end`(exclusive)
+
+Example:
+```python
+int_list = [1, 2, 3, 4, 5, 6]
+
+begin_int_list = int_list[:2]
+# begin_int_list == [1,2]
+
+middle_int_list = int_list[2:4]
+# middle_int_list == [3,4]
+
+end_int_list = int_list[4:]
+# end_int_list == [5,6]
 ```
 
 ## Popping a list element from end of a list

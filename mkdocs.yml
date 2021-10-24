@@ -38,6 +38,8 @@ nav:
     - Python Utilities:
       - Lambdas: utils/lambdas.md
       - Map, Filter, Reduce: utils/functional.md
+      - chr() and ord(): utils/chr_ord.md
+
   
 markdown_extensions:
   - pymdownx.highlight:
