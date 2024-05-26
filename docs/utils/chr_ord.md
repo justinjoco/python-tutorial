@@ -21,3 +21,12 @@ ord("<") == 60
 ord("A") == 65
 ord("9") == 57
 ```
+
+## Convert a lowercase letter to an index between 0 and 25, inclusive
+Use the statement `ord(char) - ord("a")`
+```python
+ord("a") - ord("a") == 0
+ord("z") - ord("a") == 25
+ord("d") - ord("a") == 3
+ord("j") - ord("a") == 9
+```
